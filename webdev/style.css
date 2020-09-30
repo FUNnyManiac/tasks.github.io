@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+body {
+  width: 1600px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+}
+.first_screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(assets/1st_sceen.png);
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+.first_screen h1 {
+  margin-bottom: 20px;
+}
+.first_screen p {
+  width: 504px;
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 400px;
+  margin-bottom: 30px;
+}
+.header {
+  margin-bottom: 136px;
+  height: 95px;
+}
+.logo {
+  position: absolute;
+  padding-top: 25px;
+  left: 781px;
+}
+.header_nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 70px;
+  text-align: center;
+  padding-top: 25px;
+}
+.active {
+  border-bottom: 1px solid white;
+}
+
+.header_nav li {
+  line-height: 44px;
+  padding-right: 85px;
+}
+.big_padding {
+  padding-left: 153px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 184px;
+  height: 46px;
+  background-color: #00afdb;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 700;
+}
+
+
+.header_nav a {
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.socials {
+  margin-top: 183px;
+  margin-bottom: 89px;
+  
+}
+
+.socials li {
+  display: inline;
+  margin-left: 30px;
+}
+
+
+.second_screen {
+  /* margin-top: 12px; */
+  display: flex;
+}
+
+.text_block {
+  margin-top: 295px;
+  margin-left: 268px;
+  margin-bottom: 314px;
+  width: 407px;
+  height: 233px;
+}
+
+.text_block h2 {
+  color: #373737;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text_block p {
+  color: #4e4e4e;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  margin-bottom: 30px;
+}
+.second_screen img {
+  margin-top: 120px;
+  margin-left: 248px;
+  width: 407px;
+  height: 582px;
+}
+
+.third_screen {
+  background-color: #f5f6f7;
+  display: flex;
+}
+.user_photo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.content h3 {
+  letter-spacing: 2.4px;
+  color: #373737;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500 bold;
+  /* color: #373737; */
+  margin-bottom: 10px;
+}
+.content p {
+  color: #373737;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+}
+
+.content {
+  margin: 155px 0 174px 269px;
+  width: 298px;
+  height: 175px;
+  text-align: center;
+}
+
+.flex_images {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 139px;
+}
+.num_of_img {
+  color: #373737;
+  font-size: 18px;
+  line-height: 25.2px;
+  font-weight: 500;
+}
+.numbers_images {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-left: 546px;
+}
+.images_col img {
+  width: 407px;
+  height: 244px;
+  padding-right: 30px;
+}
+.images_col {
+  overflow: hidden;
+  width: 894px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth_screen {
+  display: flex;
+}
+
+.fourth_screen img {
+  width: 407px;
+  height: 582px;
+  margin: 120px 0 140px 269px;
+}
+.text_block_2 {
+  width: 407px;
+  height: 184px;
+  margin-top: 319px;
+  margin-left: 139px;
+}
+.text_block_2 h2 {
+  color: #373737;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text_block_2 p {
+  color: #4e4e4e;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.fifth_screen {
+  height: 598px;
+  text-align: center;
+  background-image: url(assets/pexels-christina-morillo-1181675\ 1.png);
+}
+
+.fifth_screen h2 {
+  padding-top: 214px;
+  color: white;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.send_mail {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 220px;
+}
+input[type="email"] {
+  width: 325px;
+  height: 46px;
+  border: none;
+  line-height: 19.6px;
+  font-size: 14px;
+  color: #373737;
+  padding-left: 24px;
+}
+
+button[type="submit"] {
+  width: 66px;
+  height: 46px;
+  border: none;
+  background-image: url(assets/btn-submit.png);
+  cursor: pointer;
+}
+
+.sixth_screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f6f7;
+}
+.sixth_screen h2 {
+  color: #373737;
+  margin-top: 120px;
+  display: block;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.sixth_screen p {
+  color: #4e4e4e;
+  display: block;
+  text-align: center;
+  width: 483px;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.store_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 188px;
+  height: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  
+  padding-right: 30px;
+}
+
+
+.name_button {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 50px;
+  background-color: #00afdb;
+}
+.icon_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 50px;
+  background-color: #009cc2;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 180px;
+  margin-left: 25px;
+}
+
+footer {
+  display: flex;
+  background-color: #000000;
+}
+
+.site_map {
+  display: flex;
+  margin-left: 160px;
+  margin-top: 75px;
+}
+
+.site_map li {
+  display: block;
+  padding-right: 20px;
+}
+
+.site_map a {
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400px;
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+  border-right: 1px solid white;
+}
+
+footer .logo {
+  margin-top: 35px;
+}
+.copyright {
+  margin: 73px 0 0 837px;
+  color: #818181;
+  font-size: 14px;
+  line-height: 19.6px;
+  font-weight: 400;
+  margin-bottom: 91px;
+}
